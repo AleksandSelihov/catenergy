@@ -1,0 +1,45 @@
+.intro {
+    background-image: url(/assets/img/intro.jpg);
+    min-height: calc(100vh - 95px);
+    background-attachment: fixed;
+    background-size: cover;
+    padding-top: 165px;
+
+    @media (width < 1200px) {
+        padding-top: 80px;
+        padding-bottom: 80px;
+        min-height: auto;
+    }
+
+    &__title {
+        font-weight: 600;
+        font-size: clamp(2rem, 0.9091rem + 5.4545vw, 5rem);
+        line-height: 100%;
+        color: white;
+        margin-bottom: 28px;
+    }
+
+    &__text {
+        font-weight: 500;
+        font-size: clamp(1.125rem, 1.0795rem + 0.2273vw, 1.25rem);
+        line-height: 130%;
+        color: white;
+        margin-bottom: 60px;
+        max-width: 570px;
+    }
+
+    &__btn {
+        font-weight: 600;
+        font-size: clamp(0.875rem, 0.8295rem + 0.2273vw, 1rem);
+        line-height: 120%;
+        text-align: center;
+        color: black;
+        background: #f0c631;
+        padding: 19px 54px;
+        display: inline-block;
+        transition: 0.3s;
+        &:hover {
+            background: #fff;
+        }
+    }
+}

@@ -1,0 +1,113 @@
+.works {
+    padding-top: 100px;
+    padding-bottom: 100px;
+
+    @media (width < 1200px) {
+        padding-bottom: 40px;
+        padding-top: 40px;
+    }
+
+    &__top {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        @media (width < 1200px) {
+            display: flex;
+            flex-direction: column;
+            align-items: start;
+        }
+    }
+
+    &__bottom {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 93px;
+        @media (width < 1200px) {
+            display: flex;
+            gap: 40px;
+        }
+        @media (width < 768px) {
+            flex-direction: column;
+            align-items: start;
+        }
+    }
+
+    &__title {
+        font-weight: 600;
+        font-size: clamp(1.25rem, 0.7955rem + 2.2727vw, 2.5rem);
+        line-height: 110%;
+        text-transform: uppercase;
+        color: #000;
+        margin-bottom: 40px;
+    }
+
+    &__text {
+        font-weight: 500;
+        font-size: clamp(1.125rem, 1.0795rem + 0.2273vw, 1.25rem);
+        line-height: 130%;
+        color: #6e6e6e;
+        margin-bottom: 92px;
+        @media (width < 1200px) {
+            margin-bottom: 40px;
+        }
+    }
+
+    &__desc {
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 130%;
+        color: #6e6e6e;
+    }
+
+    &__subtitle {
+        font-weight: 600;
+        font-size: clamp(1.25rem, 1.1591rem + 0.4545vw, 1.5rem);
+        line-height: 120%;
+        text-transform: uppercase;
+        color: #000;
+    }
+
+    &__bottom-right {
+        @media (width < 768px) {
+            display: flex;
+            flex-direction: column;
+        }
+    }
+
+    &__info {
+        font-weight: 500;
+        font-size: clamp(1.125rem, 1.0795rem + 0.2273vw, 1.25rem);
+        line-height: 130%;
+        color: #6e6e6e;
+        margin-bottom: 92px;
+        background: #fafafa;
+        padding: 20px 40px;
+        @media (width < 1200px) {
+            margin-bottom: 40px;
+            padding: 20px 5px;
+        }
+                @media (width < 768px) {
+            margin-bottom: 30px;
+        }
+    }
+
+    &__img {
+        width: 100%;
+        &--track {
+            margin-bottom: 40px;
+        }
+
+        &--fence {
+            margin-top: 40px;
+            @media (width < 768px) {
+                order: -3;
+                margin-top: 0;
+                margin-bottom: 40px;
+            }
+        }
+    }
+
+    &__subtitle {
+        margin-bottom: 20px;
+    }
+}

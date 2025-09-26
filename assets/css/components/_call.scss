@@ -1,0 +1,33 @@
+.call {
+    background: #f0c631;
+    padding: 43px 0;
+    @media (width < 768px) {
+        padding: 20px 0px 20px;
+    }
+
+    &__wrapper {
+        display: flex;
+        justify-content: space-between;
+        @media (width < 768px) {
+            flex-direction: column;
+            text-align: center;
+            gap: 12px;
+        }
+    }
+
+    &__title {
+        font-weight: 700;
+        font-size: clamp(1.25rem, 0.7955rem + 2.2727vw, 2.5rem);
+        line-height: 110%;
+        text-transform: uppercase;
+        color: #000;
+    }
+
+    &__phone {
+        font-weight: 700;
+        font-size: clamp(1.25rem, 0.7955rem + 2.2727vw, 2.5rem);
+        line-height: 110%;
+        text-transform: uppercase;
+        color: #000;
+    }
+}
