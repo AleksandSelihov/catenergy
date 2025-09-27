@@ -1,0 +1,21 @@
+.header {
+    &__wrapper {
+        padding: 53px 110px;
+    }
+
+    &__list {
+        display: flex;
+        justify-content: flex-end;
+        gap: 35px;
+    }
+    &__link {
+        font-weight: 400;
+        font-size: 20px;
+        text-transform: uppercase;
+        color: black;
+        &--current {
+            border-bottom: 2px solid black;
+            padding-bottom: 8px;
+        }
+    }
+}
