@@ -38,6 +38,17 @@ body {
   padding: 0 20px;
 }
 
+.btn {
+  font-weight: 400;
+  font-size: 20px;
+  text-transform: uppercase;
+  text-align: center;
+  color: #fff;
+  padding: 14px 26px;
+  background: #68b738;
+  display: inline-block;
+}
+
 .header__wrapper {
   padding: 53px 0;
   display: flex;
@@ -57,4 +68,21 @@ body {
 .header__link--current {
   border-bottom: 2px solid black;
   padding-bottom: 8px;
+}
+
+.intro__title {
+  font-weight: 400;
+  font-size: 60px;
+  line-height: 100%;
+  color: #000;
+  max-width: 415px;
+  margin-bottom: 40px;
+}
+.intro__text {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 100%;
+  text-transform: uppercase;
+  color: #000;
+  margin-bottom: 40px;
 }/*# sourceMappingURL=style.css.map */
