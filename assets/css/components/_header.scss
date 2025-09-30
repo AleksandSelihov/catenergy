@@ -1,11 +1,13 @@
 .header {
     &__wrapper {
-        padding: 53px 110px;
+        padding: 53px 0;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
     }
 
     &__list {
         display: flex;
-        justify-content: flex-end;
         gap: 35px;
     }
     &__link {
