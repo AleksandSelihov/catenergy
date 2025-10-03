@@ -54,6 +54,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: space-between;
+  padding-right: 30px;
 }
 .header__list {
   display: flex;
@@ -63,13 +64,16 @@ body {
   font-weight: 400;
   font-size: 20px;
   text-transform: uppercase;
-  color: black;
+  color: white;
 }
 .header__link--current {
-  border-bottom: 2px solid black;
+  border-bottom: 2px solid white;
   padding-bottom: 8px;
 }
 
+.intro__wrapper {
+  position: relative;
+}
 .intro__title {
   font-weight: 400;
   font-size: 60px;
@@ -85,4 +89,10 @@ body {
   text-transform: uppercase;
   color: #000;
   margin-bottom: 40px;
+}
+.intro__bg {
+  position: absolute;
+  right: 0px;
+  top: -200px;
+  z-index: -1;
 }/*# sourceMappingURL=style.css.map */
