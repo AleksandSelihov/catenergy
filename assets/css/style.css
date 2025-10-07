@@ -71,6 +71,9 @@ body {
   padding-bottom: 8px;
 }
 
+.intro {
+  min-height: 550px;
+}
 .intro__wrapper {
   position: relative;
 }
@@ -95,4 +98,46 @@ body {
   right: 0px;
   top: -200px;
   z-index: -1;
+}
+
+.info__list {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 80px;
+  padding-bottom: 100px;
+}
+.info__item {
+  background: #f2f2f2;
+  padding: 50px;
+}
+.info__group {
+  display: flex;
+  align-items: center;
+}
+.info__title {
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 100%;
+  text-transform: uppercase;
+  color: #000;
+}
+.info__text {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  color: #000;
+  margin-top: 39px;
+  padding-right: 40px;
+}
+.info__link {
+  font-weight: 400;
+  font-size: 20px;
+  text-transform: uppercase;
+  text-align: center;
+  color: #000;
+  margin-top: 30px;
+  display: inline-block;
+}
+.info__logo {
+  padding-right: 50px;
 }/*# sourceMappingURL=style.css.map */

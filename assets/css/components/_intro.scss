@@ -1,4 +1,5 @@
 .intro {
+    min-height: 550px;
     &__wrapper {
         position: relative;
     }
@@ -23,6 +24,5 @@
         right: 0px;
         top: -200px;
         z-index: -1;
-
     }
 }
