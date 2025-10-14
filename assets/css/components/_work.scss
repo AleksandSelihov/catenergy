@@ -1,3 +1,66 @@
 .work {
-    
+    padding-bottom: 100px;
+    &__title {
+        font-weight: 400;
+        font-size: 60px;
+        line-height: 100%;
+        margin-bottom: 72px;
+        color: #000;
+    }
+    &__list {
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        display: grid;
+        gap: 97px;
+    }
+    &__text {
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 150%;
+        color: #444;
+    }
+
+    &__cub {
+        width: 80px;
+        height: 80px;
+        background: #68b738;
+        margin-bottom: 31px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    &__item {
+        position: relative;
+        padding-top: 40px;
+        &::before {
+            font-weight: 400;
+            font-size: 280px;
+            line-height: 100%;
+            text-align: center;
+            color: #f2f2f2;
+            position: absolute;
+            z-index: -1;
+            right: 0;
+            top: 0;
+        }
+        &:nth-child(1) {
+            &::before {
+                content: "1";
+            }
+        }
+        &:nth-child(2) {
+            &::before {
+                content: "2";
+            }
+        }
+        &:nth-child(3) {
+            &::before {
+                content: "3";
+            }
+        }
+        &:nth-child(4) {
+            &::before {
+                content: "4";
+            }
+        }
+    }
 }
