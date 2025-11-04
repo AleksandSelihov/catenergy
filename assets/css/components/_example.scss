@@ -1,0 +1,61 @@
+.example {
+    &__container {
+        display: flex;
+    }
+    &__right {
+        margin-top: -250px;
+    }
+    &__wrapper {
+        background: #f2f2f2;
+        padding-bottom: 100px;
+        padding-top: 68px;
+    }
+    &__title {
+        font-weight: 400;
+        font-size: 60px;
+        line-height: 100%;
+        margin-bottom: 78px;
+        color: #000;
+    }
+    &__text {
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 150%;
+        color: #444;
+        margin-bottom: 69px;
+        max-width: 436px;
+    }
+    &__list {
+        display: flex;
+        gap: 36px;
+    }
+    &__caption {
+        font-weight: 400;
+        font-size: 30px;
+        line-height: 123%;
+        color: #000;
+    }
+    &__info {
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 100%;
+        color: #444;
+        transform: translateY(25px);
+        background-color: #f2f2f2;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    &__item {
+        border: 1px solid #cdcdcd;
+        padding: 15px 30px 20px;
+        text-align: center;
+    }
+    &__price {
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 100%;
+        text-transform: uppercase;
+        color: #000;
+        margin-top: 55px;
+    }
+}

@@ -1,0 +1,16 @@
+.footer {
+    padding: 63px 0px 63px;
+    &__wrapper {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    // &__img {
+    //     padding-top: 63px;
+    // }
+    &__list {
+        display: flex;
+        align-items: center;
+        gap: 25px;
+    }
+}
