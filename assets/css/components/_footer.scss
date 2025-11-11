@@ -1,9 +1,11 @@
 .footer {
-    padding: 63px 0px 63px;
+    // padding: 63px 0px 63px;
+
     &__wrapper {
         display: flex;
         align-items: center;
         justify-content: space-between;
+        padding: 60px;
     }
     // &__img {
     //     padding-top: 63px;

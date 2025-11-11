@@ -260,13 +260,11 @@ body {
   margin-top: 55px;
 }
 
-.footer {
-  padding: 63px 0px 63px;
-}
 .footer__wrapper {
   display: flex;
   align-items: center;
   justify-content: space-between;
+  padding: 60px;
 }
 .footer__list {
   display: flex;
